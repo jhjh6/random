@@ -8,7 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <p class="title">random number!</p>
+        <p class="title">Random Number Generator!</p>
+        <div><button id="info-btn">Info</button></div>
+        <div id="info-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <p>This is a simple web application that generates a random number between a specified minimum and maximum value. The generated numbers are displayed on the screen and stored in a history list. Users can also clear the history list.</p>
+            </div>
+        </div>
         <input type="number" id="min" placeholder="min">
         <input type="number" id="max" placeholder="max">
         <div id="btn">Random</div>
