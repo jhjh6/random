@@ -1,0 +1,50 @@
+.container{
+    width: 360px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #efefef;
+    text-align: center;
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background: rgb(243, 81, 81);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+p{
+    margin: 30px 0px;
+}
+
+#result{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: semi-bold;
+    margin: 20px 0px;
+}
+
+.his_t{
+    font-size: 20px;
+    font-weight: semi-bold;
+    margin: 20px 0px;
+}
+
+.his_c{
+    font-size: 16px;
+    font-weight: semi-bold;
+    margin: 20px 0px;
+    color: rgb(243, 81, 81);
+    cursor: pointer;
+}
